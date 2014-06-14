@@ -22,8 +22,7 @@ mode        : selfcontained # {standalone, draft}
     7. If marks entered is between  70 to 90, suggest that you passed, good job
     8. If marks above 90, results in distinction and suggest you are genius.
 
---- 
-## Slide 3
+
 ### How to use shinyAPP:
 
     1. Please use input box to input your number.
