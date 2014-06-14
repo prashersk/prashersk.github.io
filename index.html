@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ShinyApp for calculating of cummulative grade point average (CGPA).</title>
+  <meta charset="utf-8">
+  <meta name="description" content="ShinyApp for calculating of cummulative grade point average (CGPA).">
+  <meta name="author" content="Satyendra Kumar">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>ShinyApp for calculating of cummulative grade point average (CGPA).</h1>
+    <h2>Predicition based on CGPA</h2>
+    <p>Satyendra Kumar<br/>Research</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Slide 2</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>About the ShinyApp:</h3>
+
+<pre><code>1. A shiny app is degined which takes input in the form of marks from the users.
+2. The marks is converted into CGPA.
+3. Using formula CGPA = marks/9.5, CGPA is calculated.
+4. Based on the CGPA grades a prediction is made.  
+5. Prediction suggest three outcomes based on the marks entered.
+6. Try again if marks less than 70,
+7. If marks entered is between  70 to 90, suggest that you passed, good job
+8. If marks above 90, results in distinction and suggest you are genius.
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Slide 3</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>How to use shinyAPP:</h3>
+
+<pre><code>1. Please use input box to input your number.
+2. Press submit button to see your actual CGPA grades and perdiction.
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Slide 3</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Demo</h3>
+
+<div class="row-fluid">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12" style="padding: 10px 0px;">
+        <h1>CGPA calculator and predictor</h1>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span4">
+        <form class="well">
+          <label for="marks">Please enter your marks</label>
+          <input id="marks" type="number" value="70" min="50" max="100" step="1"/>
+          <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="span8">
+        <h3>Cumulative Grade Point Average (CGPA) value</h3>
+        <h4>You entered </h4>
+        <pre id="inputValue" class="shiny-text-output"></pre>
+        <h4>Your CGPA grades and prediction </h4>
+        <pre id="prediction" class="shiny-text-output"></pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Slide 4</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Limitations</h3>
+
+<pre><code>1. Very simple with very less sophistication.
+2. Not very much interactive.
+3. Have limited ability
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Slide 5</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Improvments</h3>
+
+<pre><code>1. The app can be improved by including several features.
+2. Could be make more interactive.
+3. Can be made more diverse.
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Slide 2'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Slide 3'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Slide 3'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Slide 4'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Slide 5'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
