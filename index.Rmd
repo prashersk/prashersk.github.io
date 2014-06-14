@@ -1,5 +1,5 @@
 ---
-title       : ShinyApp for calculating of cummulative grade point average (CGPA).
+title       : ShinyApp for calculating cummulative grade point average (CGPA).
 subtitle    : Predicition based on CGPA
 author      : Satyendra Kumar
 job         : Research
